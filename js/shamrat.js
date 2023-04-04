@@ -1,21 +1,40 @@
 $(document).ready(function () {
 
-    var joiningDate = "May, 1, 2019";
+    // var joiningDate = "May, 1, 2019";
 
-    var careerStarted = new Date(joiningDate);
-    var today = new Date();
+    // var careerStarted = new Date(joiningDate);
+    // var today = new Date();
 
-    var currentYear = new Date().getFullYear();
-    var yearOfExp = parseInt(DateDiff.inMonths(careerStarted, today) / 12);
-    var monthOfExp = parseInt((DateDiff.inMonths(careerStarted, today) + 1) % 12);
-    yearOfExp += monthOfExp/12;
-    monthOfExp = monthOfExp%12;
-    // console.log(currentYear);
-    // console.log(monthOfExp);
-    // console.log(yearOfExp);
-    var totalExperience = parseInt(yearOfExp) + "Y " + monthOfExp + "M ";
-    $("#currentYear").html(currentYear);
-    $("#totalExperience").html(totalExperience);
+    // var currentYear = new Date().getFullYear();
+    // var yearOfExp = parseInt(DateDiff.inMonths(careerStarted, today) / 12);
+    // var monthOfExp = parseInt((DateDiff.inMonths(careerStarted, today) + 1) % 12);
+    // yearOfExp += monthOfExp/12;
+    // monthOfExp = monthOfExp%12;
+    // // console.log(currentYear);
+    // // console.log(monthOfExp);
+    // // console.log(yearOfExp);
+    // var totalExperience = parseInt(yearOfExp) + "Y " + monthOfExp + "M ";
+    // $("#currentYear").html(currentYear);
+    // $("#totalExperience").html(totalExperience);
+
+    // Define the start date
+var startDate = new Date('May 1, 2019');
+
+// Get the current date
+var today = new Date();
+
+// Calculate the difference in months
+var diffMonths = (today.getFullYear() - startDate.getFullYear()) * 12;
+diffMonths -= startDate.getMonth();
+diffMonths += today.getMonth();
+
+// Calculate the years and months
+var years = Math.floor(diffMonths / 12);
+var months = diffMonths % 12;
+    $("#currentYear").html(new Date().getFullYear());
+    $("#totalExperience").html(years + 'Y ' + months + 'M');
+// Print the result
+console.log(years + ' years and ' + months + ' months');
 
 });
 
