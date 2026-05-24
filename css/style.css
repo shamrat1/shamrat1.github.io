@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
 
 :root {
+  color-scheme: dark;
   /* Dark Theme Tokens (Default) */
   --bg-color: #030303;
   --bg-card: #09090b;
@@ -34,7 +35,8 @@
 }
 
 /* Light Theme Overrides */
-body.theme-light {
+html.theme-light {
+  color-scheme: light;
   --bg-color: #fafafa;
   --bg-card: #ffffff;
   --bg-card-hover: #f4f4f5;
@@ -196,7 +198,7 @@ body {
 .theme-light .sun-icon {
   display: none;
 }
-body:not(.theme-light) .moon-icon {
+html:not(.theme-light) .moon-icon {
   display: none;
 }
 
