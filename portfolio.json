@@ -126,12 +126,29 @@
   },
   "experience": [
     {
+      "role": "Flutter Engineer",
+      "company": "Ichiban Auto Limited",
+      "companyUrl": "https://workshoplogic.co.nz",
+      "location": "New Zealand",
+      "startDate": "2024-12",
+      "endDate": "Present",
+      "type": "Full-time, Remote",
+      "highlights": [
+        "Developed the Workshop Logic mobile application from the ground up using Flutter.",
+        "Designed and implemented complex UI components and state management architectures to ensure seamless user interaction.",
+        "Integrated REST APIs and real-time features to support customers, technicians, and administrators.",
+        "Optimized app performance for efficient memory and resource usage across devices.",
+        "Continuously resolved production issues, enhanced code quality, and improved app stability through analytics-driven insights."
+      ],
+      "technologies": ["Flutter", "Dart", "REST APIs", "State Management", "Firebase", "Clean Architecture"]
+    },
+    {
       "role": "Software Engineer",
       "company": "Marsa Technologies",
       "companyUrl": "http://marsatechnologies.com",
       "location": "Chattogram, Bangladesh",
       "startDate": "2021-06",
-      "endDate": "Present",
+      "endDate": "2024-11",
       "type": "Full-time",
       "highlights": [
         "Responsible for defining, architecting, and developing software for sister concern companies and global SAAS products.",
