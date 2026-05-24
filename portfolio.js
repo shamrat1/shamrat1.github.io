@@ -1,0 +1,350 @@
+// Global Structured Portfolio Database
+// Bypasses browser CORS fetch restrictions under local file:// protocol
+window.PORTFOLIO_DATA = {
+  "config": {
+    "defaultTheme": "dark",
+    "accentColor": "indigo",
+    "enableAnimations": true
+  },
+  "seo": {
+    "title": "Yasin Siraj Shamrat | Software Engineer",
+    "description": "Dynamic personal portfolio of Yasin Siraj Shamrat, Software Engineer specializing in high-performance Mobile (Flutter) and Web applications with DevOps skills (AWS, Docker, Terraform).",
+    "keywords": [
+      "Yasin Siraj Shamrat",
+      "Software Engineer",
+      "Flutter Developer",
+      "Dart",
+      "Laravel",
+      "PHP Developer",
+      "AWS",
+      "DevOps",
+      "Docker",
+      "Terraform",
+      "Chattogram",
+      "Bangladesh"
+    ],
+    "ogImage": "Shamrat.jpg"
+  },
+  "profile": {
+    "name": "Yasin Siraj Shamrat",
+    "title": "Software Engineer",
+    "subtitle": "Specializing in high-performance Mobile (Flutter/Dart) and Web (Laravel/PHP) applications.",
+    "avatar": "Shamrat.jpg",
+    "location": "Chattogram, Bangladesh",
+    "email": "yshamrat@gmail.com",
+    "phone": "+880 1830 660 991",
+    "careerStartDate": "2019-05-01",
+    "resumeUrl": "resume_yasin_shamrat.pdf",
+    "socials": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/shamrat1",
+        "icon": "github"
+      },
+      {
+        "platform": "StackOverflow",
+        "url": "https://stackoverflow.com/users/9300164/yasin-shamrat",
+        "icon": "stack-overflow"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/yasin-shamrat/",
+        "icon": "linkedin"
+      },
+      {
+        "platform": "HackerRank",
+        "url": "https://www.hackerrank.com/yshamrat",
+        "icon": "hackerrank"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/yasinshamrat/",
+        "icon": "instagram"
+      }
+    ]
+  },
+  "about": {
+    "bio": "A passionate software engineer with a proven track record of developing cross-platform mobile applications (Flutter/Dart) and robust backend/web solutions (Laravel/PHP). Expert in building low-latency systems, implementing real-time WebSockets, integrating hardware peripherals (ESC/POS, BLE), and managing cloud infrastructures. Highly skilled in DevOps practices, cloud-native deployments, and infrastructure automation to ensure secure, resilient, and scalable systems.",
+    "skills": [
+      {
+        "category": "Mobile Development",
+        "items": [
+          "Flutter",
+          "Dart",
+          "Swift",
+          "iOS & Android SDKs",
+          "REST APIs Integration",
+          "Riverpod",
+          "GetX",
+          "Provider"
+        ]
+      },
+      {
+        "category": "Backend & Database",
+        "items": [
+          "PHP (Laravel)",
+          "MySQL",
+          "MongoDB",
+          "Apache & Nginx",
+          "WebSockets",
+          "Supervisor Process Manager"
+        ]
+      },
+      {
+        "category": "DevOps & Cloud",
+        "items": [
+          "AWS (ECR, ECS, S3, IAM)",
+          "Azure DevOps",
+          "GitHub Actions",
+          "Terraform",
+          "Ansible",
+          "Docker"
+        ]
+      },
+      {
+        "category": "Tools & Core Tech",
+        "items": [
+          "C/C++",
+          "Python",
+          "Bash Scripting",
+          "JavaScript (ES6 / jQuery)",
+          "GIT Version Control",
+          "Postman API Testing"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "name": "Bengali",
+        "level": "Native",
+        "percentage": 98
+      },
+      {
+        "name": "English",
+        "level": "Fluent",
+        "percentage": 95
+      }
+    ]
+  },
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Marsa Technologies",
+      "companyUrl": "http://marsatechnologies.com",
+      "location": "Chattogram, Bangladesh",
+      "startDate": "2021-06",
+      "endDate": "Present",
+      "type": "Full-time",
+      "highlights": [
+        "Responsible for defining, architecting, and developing software for sister concern companies and global SAAS products.",
+        "Engineered POS printing systems in JavaScript and Flutter to communicate natively with USB/BLE ESC/POS hardware.",
+        "Built and maintained low-latency WebSocket backend services, running with Supervisor on VPS (RHEL).",
+        "Designed beautiful, complex custom UIs in Flutter and integrated core Firebase services (Push Notifications, Crashlytics, Remote Config)."
+      ],
+      "technologies": ["Flutter", "Dart", "Laravel", "WebSockets", "Supervisor", "RHEL", "USB/BLE ESC/POS", "Firebase"]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Anazbd",
+      "companyUrl": "http://anazbd.com",
+      "location": "Chattogram, Bangladesh",
+      "startDate": "2020-02",
+      "endDate": "2021-05",
+      "type": "Full-time, Remote",
+      "highlights": [
+        "Responsible for defining and developing software for diverse business tasks.",
+        "Developed E-commerce platform for Web and mobile applications.",
+        "Collaborated in a team environment to share best practices.",
+        "Distributed and assigned development tasks among the associates.",
+        "Ensured smooth running of production servers and core applications.",
+        "Ensured software quality, compliance, and cloud security."
+      ],
+      "technologies": ["Flutter", "Dart", "PHP", "Laravel", "MySQL", "Ubuntu VPS", "E-Commerce Architecture"]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Spinner Tech Limited",
+      "companyUrl": "https://www.spinnertech.dev/",
+      "location": "Chattogram, Bangladesh",
+      "startDate": "2019-10",
+      "endDate": "2021-01",
+      "type": "Full-time, Remote",
+      "highlights": [
+        "Developed various Web Applications and Services as per global customer requirements.",
+        "Planned entire development cycles and collected specifications for developing software.",
+        "Assigned features and coordinated tasks among team members.",
+        "Ensured application security and conducted code reviews before deployments.",
+        "Performed black box and white box testing to maintain high software standards."
+      ],
+      "technologies": ["PHP", "Laravel", "JavaScript", "MySQL", "HTML5/CSS3", "REST APIs", "Git"]
+    },
+    {
+      "role": "Software Engineering Intern",
+      "company": "Ringersoft Limited",
+      "companyUrl": "http://ringersoft.com/",
+      "location": "Chattogram, Bangladesh",
+      "startDate": "2019-05",
+      "endDate": "2019-09",
+      "type": "Internship",
+      "highlights": [
+        "Developed custom business modules for RMG and Pharmaceutical ERP systems.",
+        "Gathered client requirements and broke down operational workflows to implement solutions."
+      ],
+      "technologies": ["PHP", "Laravel", "JQuery", "MySQL", "ERP Architecture"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "tictactoe",
+      "title": "MultiPlayer TicTacToe",
+      "shortDescription": "Low-latency multiplayer game using real-time synchronization.",
+      "longDescription": "A test project designed to learn and implement low-latency multiplayer gaming systems. Built on Flutter, it leverages Firestore real-time listeners to sync game states instantly between two players across different networks with minimal latency.",
+      "technologies": ["Flutter", "Firebase", "Firestore", "Dart"],
+      "githubUrl": "https://github.com/shamrat1/flutter_multiplayer_tictactoe",
+      "liveUrl": "",
+      "category": "Mobile",
+      "featured": false
+    },
+    {
+      "id": "audio-player",
+      "title": "Offline Audio Player",
+      "shortDescription": "Privacy-focused, completely ad-free offline music player.",
+      "longDescription": "An ad-free, offline music player that prioritizes user privacy. Offers seamless background audio playback, allowing you to enjoy your library while using other applications. Features playlist support to easily organize collections and remembers playback progress automatically.",
+      "technologies": ["Flutter", "Dart", "JustAudio", "JustAudio Background"],
+      "githubUrl": "https://github.com/shamrat1/flutter-audio-player",
+      "liveUrl": "",
+      "category": "Mobile",
+      "featured": true
+    },
+    {
+      "id": "zodiac-talks",
+      "title": "Zodiac Talks",
+      "shortDescription": "Comprehensive horoscope tracking and compatibility analyzer.",
+      "longDescription": "ZodiacTalks is a dynamic horoscope application providing details about astrology signs, compatibility, and lucky numbers. Developed with high-quality widgets and structured state management, it implements in-app subscriptions and localized notifications to drive retention.",
+      "technologies": ["Flutter", "Riverpod", "Notifications", "Admob", "In-App Subscriptions", "Dart"],
+      "githubUrl": "",
+      "liveUrl": "https://play.google.com/store/apps/details?id=com.zodiac.talks.daily_horoscope",
+      "category": "Mobile",
+      "featured": true
+    },
+    {
+      "id": "tikpro",
+      "title": "TikPro",
+      "shortDescription": "HD video and audio downloader with seamless subscriptions.",
+      "longDescription": "TikPro is a specialized utility app designed to download HD audio and video from TikTok links. Integrated with Google AdMob to serve Native, Banner, and Interstitial ads, and equipped with Google and Apple In-App Subscriptions for premium ad-free experiences.",
+      "technologies": ["Flutter", "Riverpod", "Rest API", "Audio & Video Services", "Admob", "Subscriptions"],
+      "githubUrl": "",
+      "liveUrl": "https://play.google.com/store/apps/details?id=com.tik_pro",
+      "category": "Mobile",
+      "featured": true
+    },
+    {
+      "id": "likkutei-sichos",
+      "title": "Likkutei Sichos",
+      "shortDescription": "Religious blog and audio/video streaming provider.",
+      "longDescription": "A unified platform for collective lectures, blog entries, and streaming of religious discussion videos and audio podcasts. Built for both iOS and Android, leveraging low-level downloads in background isolates, picture-in-picture stream rendering, and advanced audio services.",
+      "technologies": ["Flutter", "GetX", "Rest API", "Provider", "Audio & Video Services", "Isolates"],
+      "githubUrl": "",
+      "liveUrl": "https://play.google.com/store/apps/details?id=org.likkuteisichos",
+      "category": "Mobile",
+      "featured": true
+    },
+    {
+      "id": "abdaar",
+      "title": "Abdaar Life Style",
+      "shortDescription": "Hyperlocal delivery platform for food, groceries, and parcels.",
+      "longDescription": "Abdaar is a customer services application for hyperlocal food delivery, parcel forwarding, medicine delivery, and grocery shopping. Integrates geolocation auto-completion, reverse geocoding, real-time tracking via Google Maps, WebSocket coordination, and directions routing.",
+      "technologies": ["Flutter", "REST API", "Riverpod", "Geolocation", "Google Maps", "WebSockets"],
+      "githubUrl": "",
+      "liveUrl": "https://play.google.com/store/apps/details?id=com.abdaar",
+      "category": "Mobile",
+      "featured": false
+    },
+    {
+      "id": "cliqpack",
+      "title": "CliqPack E-Commerce",
+      "shortDescription": "Multivendor e-commerce app with virtual try-on features.",
+      "longDescription": "CliqPack is a complex multivendor e-commerce application. Key capabilities include a collaborative Group Buy module, dynamic shopping carts, order checkouts, and an experimental Virtual Try-On AR feature to overlay accessories in real-time.",
+      "technologies": ["Flutter", "REST API", "GetX", "Firebase", "Augmented Reality"],
+      "githubUrl": "",
+      "liveUrl": "https://apps.apple.com/ng/app/cliqpack/id1595803206",
+      "category": "Mobile",
+      "featured": false
+    },
+    {
+      "id": "expense-manager",
+      "title": "Expense Manager",
+      "shortDescription": "Cross-platform personal finance and goal tracker.",
+      "longDescription": "A robust personal finance manager that operates across Mobile, Web, and Windows platforms. Enables users to categorize monthly income, track live expenditures, formulate saving goals, create task checklists, and visualize financial trends.",
+      "technologies": ["Flutter", "GetX", "REST API", "Flare Animations", "Local Notifications", "AdMob"],
+      "githubUrl": "https://github.com/shamrat1/expense_manager",
+      "liveUrl": "https://play.google.com/store/apps/details?id=com.mr_flutter.expense_manager&hl=en&gl=US",
+      "category": "Mobile",
+      "featured": false
+    },
+    {
+      "id": "marsa-transport",
+      "title": "Marsa Transport",
+      "shortDescription": "Agent booking app integrated with custom ESC/POS printers.",
+      "longDescription": "A specialized tool developed for Marsa Transport agents. Integrates webview bridges, custom JavaScript channels, and a tailored ESC/POS print library written from scratch to parse and send print commands to USB and BLE wireless ticket printers.",
+      "technologies": ["Flutter", "WebView", "JavaScript Channels", "ESC/POS", "BLE Printing"],
+      "githubUrl": "",
+      "liveUrl": "",
+      "category": "Mobile",
+      "featured": false
+    },
+    {
+      "id": "rarare",
+      "title": "Rarare Civic Tracker",
+      "shortDescription": "Civic issue tracking, community collaboration, and voting platform.",
+      "longDescription": "Rarare is a civic collaboration application that allows citizens to report public issues, coordinate community-driven solutions, sign petitions, and vote on local initiatives. Uses OAuth authentication and real-time mapping nodes.",
+      "technologies": ["Flutter", "REST API", "Provider", "Firebase", "OAuth", "Google Maps"],
+      "githubUrl": "",
+      "liveUrl": "",
+      "category": "Mobile",
+      "featured": false
+    },
+    {
+      "id": "anazbd-app",
+      "title": "Anazbd Mobile App",
+      "shortDescription": "Groceries and lifestyle online delivery application.",
+      "longDescription": "Mobile application for the Anazbd e-commerce ecosystem. Implements catalog browsing, flash sales timers, complex payment integrations, order tracking, and localized push messaging.",
+      "technologies": ["Flutter", "REST API", "Provider", "Firebase", "OAuth"],
+      "githubUrl": "",
+      "liveUrl": "https://play.google.com/store/apps/details?id=com.anazbd.anaz_bd&hl=en_US&gl=US",
+      "category": "Mobile",
+      "featured": false
+    },
+    {
+      "id": "anazbd-backend",
+      "title": "Anazbd Backend Core",
+      "shortDescription": "E-commerce web portal and API hub built with Laravel.",
+      "longDescription": "The high-throughput backend architecture powering Anazbd. Built using Laravel and PHP, it hosts administration control panels, provides RESTful services to iOS/Android apps, synchronizes inventory, and manages order dispatch queues via Livewire and jQuery.",
+      "technologies": ["PHP", "Laravel", "LiveWire", "JQuery", "MySQL", "REST APIs"],
+      "githubUrl": "",
+      "liveUrl": "",
+      "category": "Web",
+      "featured": false
+    }
+  ],
+  "education": [
+    {
+      "institution": "International Islamic University Chittagong (IIUC)",
+      "degree": "B.Sc. in Computer Science & Engineering",
+      "duration": "2013 - 2018",
+      "details": "Major in Software Engineering. Solved 500+ algorithmic problems across UVA, Codeforces, and HackerRank. Ranked 2nd in IIUC IUPC 2017 and 5th in EDU Programming Contest 2018."
+    },
+    {
+      "institution": "JMCC College, Chittagong",
+      "degree": "Higher Secondary Certificate",
+      "duration": "2011 - 2013",
+      "details": "Major in Science. Graduated with a focus on Mathematics and Physics."
+    },
+    {
+      "institution": "Meher Afzal School, Chittagong",
+      "degree": "Secondary School Certificate",
+      "duration": "2005 - 2010",
+      "details": "Major in Science. Completed foundational secondary education with academic distinction."
+    }
+  ]
+};
